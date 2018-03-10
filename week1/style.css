@@ -1,0 +1,73 @@
+body {
+    background-image: url(image-back.jpg);
+    color: #fff; 
+    font-family: Aria;
+    font-size: 22px;
+    margin-left: 50px;
+  }
+  #header {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 430px;
+    }
+  h2{
+      font-size: 24px;
+      margin-left: 140px;
+    }
+  h3{
+      font-size: 24px;
+    }
+  h4{
+      font-size: 28px;
+    }
+  p{
+    font-size: 18px;
+  }
+  #shiva-pic{
+    margin-left:6em;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding:2em;
+    vertical-align: middle;
+    display: inline-flex;
+  }
+  #edu{
+    margin-top: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding-left:6em;
+  }
+  #work{
+    margin-top: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding-left:6em;
+  }
+  .titr-work{
+    margin-left: 10px;
+  }
+  .sub-titr-work{
+    font-size: 22px;
+    font-style: oblique;
+  }
+  #field{
+    font-size: 30px;
+    margin-left: 340px;
+  }
+  .titr-edu{
+    margin-left: 10px;
+  }
+  ul{
+    font-size: 18px;
+  }
+  .reso{
+    margin-left:6em;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding:6em;
+    vertical-align: middle;
+    display: inline-flex;
+  }
+ 
+
+  

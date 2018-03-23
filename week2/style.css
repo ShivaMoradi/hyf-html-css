@@ -21,7 +21,7 @@ h3{
 width: 70%;
 box-shadow: cadetblue;
 list-style: none;
-font-amily: Georgia, 'Times New Roman', Times, serif;
+font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 22px;
 box-sizing: content-box;
 margin-left: 10px;
@@ -49,7 +49,7 @@ img{
     width: 20em;
     background-color: paleturquoise;
     margin-left: 1em;
-    display: block;
+    
 }   
 /*Flex Grid*/
 #grid-flex{
@@ -57,7 +57,40 @@ img{
     flex-direction: column;
     width: 90%;
 }
- 
+/* This is for screen for devices
+
+@media only screen and (min-width:400px) and (max-width:641px) 
+{
+    #grid-floats{
+        display: grid;
+
+        
+    }
+ img{
+           width:20em;
+           justify-content: center;  
+           } 
+} 
+
+
+@media only screen and (max-width:400px)
+{
+    #grid-floats{
+        grid-auto-columns: 40% 40%;
+        
+    } 
+     #grid-floats .grid-item:first-child{
+                                              width:90%;
+                                                                          
+                                              }                          
+    }
+ img{
+           width:10em;
+           justify-content: center;  
+           } */
+
+
+
 
 
 

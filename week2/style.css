@@ -48,8 +48,7 @@ p{
 img{
     width: 20em;
     background-color: paleturquoise;
-    margin-left: 1em;
-    
+    margin-left: 1em;   
 }   
 /*Flex Grid*/
 #grid-flex{
@@ -57,41 +56,26 @@ img{
     flex-direction: column;
     width: 90%;
 }
-/* This is for screen for devices
-
 @media only screen and (min-width:400px) and (max-width:641px) 
 {
     #grid-floats{
-        display: grid;
-
-        
+    display: grid;
     }
  img{
-           width:20em;
-           justify-content: center;  
-           } 
+    width:20em;
+    justify-content: center;  
+     } 
 } 
-
-
 @media only screen and (max-width:400px)
 {
     #grid-floats{
         grid-auto-columns: 40% 40%;
-        
     } 
      #grid-floats .grid-item:first-child{
-                                              width:90%;
-                                                                          
-                                              }                          
+     width:90%;                                                                      
+    }                          
     }
  img{
-           width:10em;
-           justify-content: center;  
-           } */
-
-
-
-
-
-
-
+    width:10em;
+    justify-content: center;  
+    } 

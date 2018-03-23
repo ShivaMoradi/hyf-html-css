@@ -1,0 +1,64 @@
+/* floats Grid*/
+body{
+    
+    background-color: paleturquoise;
+}
+h1{
+    box-sizing: content-box;
+    width: 100%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: azure;
+}
+h2{
+    box-sizing: content-box;
+    width: 100%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: azure;  
+}
+h3{
+width: 70%;
+box-shadow: cadetblue;
+list-style: none;
+font-amily: Georgia, 'Times New Roman', Times, serif;
+font-size: 22px;
+box-sizing: content-box;
+margin-left: 10px;
+margin-bottom: 2px;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin-left: 1em;
+}
+#grid-floats{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+  grid-gap: 1rem;
+  margin-left: auto;
+  justify-content: space-between;
+}
+.grid-item{
+    border: 0.2em solid white;
+    border-radius: 0.3em;
+    list-style-type: none;
+    margin: 1em 1em 1em 1em;
+}
+img{
+    width: 20em;
+    background-color: paleturquoise;
+    margin-left: 1em;
+    display: block;
+}   
+/*Flex Grid*/
+#grid-flex{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+ 
+
+
+
+

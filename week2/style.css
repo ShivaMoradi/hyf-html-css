@@ -1,6 +1,5 @@
 /* floats Grid*/
 body{
-    
     background-color: paleturquoise;
 }
 h1{
@@ -44,38 +43,40 @@ p{
     border-radius: 0.3em;
     list-style-type: none;
     margin: 1em 1em 1em 1em;
-}
-img{
-    width: 20em;
-    background-color: paleturquoise;
-    margin-left: 1em;   
-}   
+} 
 /*Flex Grid*/
 #grid-flex{
     display: flex;
     flex-direction: column;
     width: 90%;
 }
-@media only screen and (min-width:400px) and (max-width:641px) 
+@media only screen and (min-width:400px)  
 {
-    #grid-floats{
-    display: grid;
-    }
  img{
-    width:20em;
-    justify-content: center;  
+    width:50%;
+    margin: 1em;
      } 
 } 
 @media only screen and (max-width:400px)
-{
-    #grid-floats{
-        grid-auto-columns: 40% 40%;
-    } 
+   {
      #grid-floats .grid-item:first-child{
-     width:90%;                                                                      
-    }                          
-    }
- img{
-    width:10em;
-    justify-content: center;  
+     width: 90%;
+     display: grid;
     } 
+     img{
+        width:3em;
+        margin:0.3em;
+        } 
+        #grid-floats p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: small;
+         margin: 0.1em;
+        }  
+        #grid-floats h3{
+            width: 30%;
+            font-size: 12px;
+            font-weight: bold;
+            box-sizing: content-box;
+            margin: 0.1em;
+            }                  
+    }

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shiva Moradi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="cv"> 
+        <div class="header"></div>
+        <div class="education"></div>
+        <div class="work"></div>
+        <div class="language"></div>
+        <div class="reference"></div>
+        <div class="general">
+                <div class="portfolio">
+                    <h2>portfolio</h2>
+                    <img src="image-first-pic.jpg" alt="">
+                    <p>This is an example for my portfolio.This is an example for my portfolio.
+                            This is an example for my portfolio.This is an example for my portfolio.</p>
+                    <button><a href="https://css-tricks.com/snippets/css/complete-guide-grid/">less more</a></button>
+                </div>
+
+                <div class="blog">
+                        <h2>Blog</h2>
+                        <img src="image-first-pic.jpg" alt="">
+                        <p>This is an example for my blog.This is an example for my blog.
+                                This is an example for my blog.This is an example for my blog.</p>
+                        <button><a href="https://css-tricks.com/snippets/css/complete-guide-grid/">less more</a></button>
+                    </div>
+            </div>  
+        
+            <div class="header"><h1>Shiva Moradi</h1>
+                <div id="shiva-pic"><img src="image.jpg" alt="shiva moradi">
+                    <div class="contact-info"><p> Rörtornsgatan 5<br>216 46 Limhamn<br> Mobile: 073-7225929<br>
+                        <a href="mailto:shiva.moradi1@gmail.com">Email</a><br>  
+                        <a href="http://www.linkedin.com/in/shiva-moradi">LinkedIn profile</a></p></div> 
+                  <div class="about"><h4>Additional information:</h4><p>Hi! I'm Shiva.<br>I'm from Iran and living in Sweden.<br><br>
+                    I came to Sweden about 2 years ago and I'm living with my hausband.<br><br>
+                    I love my family and travel!<br>
+                    In freetimes, I have studied both swedish and english.<br></p></div>
+                       </div></div>
+            <div  class="education"><h3>Education</h3>
+              <ul>
+                 <li>Master degree in Software Engineering 2013 -2016 <br>
+                    Islamic Azad university,Ghazvin, Iran</li><br>
+                 <li>Bachelor degree in Software Engineering 2010-2013 <br>
+                    Saeb Institute of Higher Education, Abhar, Iran</li>
+              </ul>
+            </div>
+                  <div class="work"><h3>Work experiences</h3>
+                    <ul>
+                          <li>Web developer, Machete Tours 2017 – 2018 <br>
+                              <p>Web developing, CSS, HTML, Joomla, Wordpress <br>
+                              Social media Marketing<br>
+                              Adobe Creative Cloud<br>
+                              Backuphantering</p></li>
+                          <li>Application supporting, Mehrafraz Asia 2013 – 2015 <br>
+                              <p>Troubleshooting and analysering<br>
+                              Support in installation and maintenance of system<br>
+                              Active Directory<br>
+                              Agile/Scrum</p></li>
+                            </ul></div>
+                       <div class="language"><h3>Languages</h3>
+                        <ul>
+                            <li>Persiska</li>
+                            <li>Svenska</li>
+                            <li>Engelska</li>
+                            </ul></div>
+                        <div class="reference"><h3>References</h3>
+                       <ul>
+                           <li>Johan Petrisi in TRR TRYGGHETSRÅDET<br>
+                                Mobile: 070-2958778<br>
+                                Direct: 010-4709374<br>
+                                Email: johan.petrisi@trr.se</li>
+                           <li>Siamak Afshari in Folkuniversity<br>
+                                Mobile: 0707-455435<br>
+                                Email: Siamak.afshari@folkuniversitetet.se<br>
+                                or Siamak@peritias.se</li>
+                       </ul>
+                    </div>
+</body>
